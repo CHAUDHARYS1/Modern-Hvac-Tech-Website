@@ -1,0 +1,88 @@
+ .helpusimg{
+    background: /* top, transparent red, faked with gradient */
+    linear-gradient( rgba(35, 64, 98, .8), rgba(35, 64, 98, .5) ), 
+    /* bottom, image */ url(../images/a23.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 200px;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-position: bottom;
+}
+.maintainimg{
+    background: /* top, transparent red, faked with gradient */
+    linear-gradient( rgba(35, 64, 98, .8), rgba(35, 64, 98, .5) ), 
+    /* bottom, image */ url(../images/a12.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 200px;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-position: center;
+}
+.chooseimg{
+    background: /* top, transparent red, faked with gradient */
+    linear-gradient( rgba(35, 64, 98, .8), rgba(35, 64, 98, .5) ), 
+    /* bottom, image */ url(../images/a25.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 200px;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-position: bottom;  
+}
+.designimg{
+    background: /* top, transparent red, faked with gradient */
+    linear-gradient( rgba(35, 64, 98, .8), rgba(35, 64, 98, .5) ), 
+    /* bottom, image */ url(../images/a26.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 200px;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-position: center;
+}
+.helpimg h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.helpimg hr{
+    width: 3%;
+    border-top: 2px solid #eee;
+    margin: 0 auto;
+}
+.helptext {
+    background: #f4f5f9;
+    padding: 6em 0;
+}
+.helptextpara{
+    width: 80%;
+    margin:0 auto;
+}
+.helptextpara p{
+    color: #717980;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .helpimg h2{
+        font-size:20px;
+    }
+    .helpimg hr{
+        width: 10%;
+    }
+}
